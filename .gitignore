@@ -1,0 +1,101 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+Pipfile.lock
+
+# Fichiers de logs
+*.log
+
+# Librairies et fichiers téléchargés
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.manifest
+*.spec
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+
+# Données temporaires ou caches
+*.csv
+*.h5
+*.hdf5
+*.db
+*.pkl
+*.npz
+*.npy
+
+# Fichiers des notebooks Jupyter
+.ipynb_checkpoints
+
+# TensorFlow/Torch fichiers de sauvegarde et checkpoints
+checkpoint/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Modèles et résultats générés
+*.model
+*.hdf5
+*.pb
+*.meta
+
+# Fichiers spécifiques aux environnements de Deep Learning
+**/__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.dll
+
+# Cache Python
+*.pytest_cache
+.cache/
+.mypy_cache/
+
+# Fichiers générés par des librairies
+*.parquet
+*.feather
+*.dask
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Dossier contenant les datasets téléchargés ou générés
+data/
+datasets/
+
+# Environnements Docker
+Dockerfile
+*.dockerignore
+
+# Configurations locales
+.env
+.env.local
+.env.*.local
+.envrc
+*.secret
+
+# Librairies installées
+*.lib
+node_modules/
+lib/
+bin/
+target/
