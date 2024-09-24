@@ -97,6 +97,6 @@ if __name__ == "__main__":
     print("Model Base Run")
 
     t     = torch.rand(1, 3, 64, 64)
-    model = SimpleCNN(7)
+    model = BasicMobileNet(7)
     y     = model(t)
     print(y)
