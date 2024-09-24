@@ -36,12 +36,12 @@ if __name__ == "__main__":
     metrics.loss       = torch.nn.BCEWithLogitsLoss()
     metrics.activation = torch.nn.Softmax(1)
 
-    model        = SimpleCNN(3).to(device)
+    model        = BasicMobileNet(3).to(device)
     optimizer    = torch.optim.Adam(model.parameters(), lr = 0.0001)
 
     training_augmentation = [
-        #transforms.RandomHorizontalFlip(),
-        #transforms.RandomVerticalFlip(),
+        transforms.RandomHorizontalFlip(),
+        transforms.RandomVerticalFlip(),
     ]
 
     validation_dataset = SimpleTorchDataset('./AsFlowers/val')
